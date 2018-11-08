@@ -12,6 +12,8 @@ namespace CryptoBotStandard.Contracts
 
     public enum TimeRate
     {
+        Millisecond,
+        Centisecond,
         Second,
         Minute,
         Hour,
@@ -19,4 +21,13 @@ namespace CryptoBotStandard.Contracts
         Week,
         Month
     }
+
+    public enum Exchange
+    {
+        Binance,
+        Bittrex,
+        CoinbasePro,
+        KuCoin
+    }
+
 }
